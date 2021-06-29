@@ -53,7 +53,7 @@ Users should be able to:
 
 -  [Solution URL](https://github.com/divyanshu0x16/REST-Countries)
 
-- [Live Site URL](https://divyanshu0x16.github.io/REST-Countries/)
+- [Live Site URL](https://countries-api-divyanshu0x16.vercel.app)
 
 ### Built with
 
@@ -76,6 +76,8 @@ Users should be able to:
 - Working on the responsiveness of the website and animations smoother. 
 
 - Work on the search functionality and implement fuzzy search
+
+- Sometimes the countries page doesn't load and has to be refreshed.
 
 ### Useful resources
 
