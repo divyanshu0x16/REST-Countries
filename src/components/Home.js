@@ -19,7 +19,7 @@ const Home = ({ handleSearch, applyFilter, country, countries }) => {
         <div className="grid laptop:grid-cols-4 mobile:grid-cols-1 half:grid-cols-2 place-items-center">
           {countries.map((country) => {
             const { name, flag, population, region, capital } = country;
-            const path = '/country/' + name.replace(/\s+/g, '-').toLowerCase();
+            const path = 'REST-Countries/country/' + name.replace(/\s+/g, '-').toLowerCase();
 
             return (
               <Link to={path} key={country.alpha3Code}>
