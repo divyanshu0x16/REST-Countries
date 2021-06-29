@@ -9,6 +9,7 @@ import CountryPage from './components/CountryPage';
 
 const App = () => {
   const [countries, setCountries] = useState([]);
+  const [initialCountries, setInitialCountries] = useState([]);
   const [country, setSearch] = useState('');
   const allCountries = useRef(null);
 
@@ -16,6 +17,7 @@ const App = () => {
     countriesService.getAll().then((response) => {
       allCountries.current = response;
       setCountries(response);
+      setInitialCountries(response)
     });
   }, []);
 
@@ -57,7 +59,7 @@ const App = () => {
                 countries={countries}
               ></Home>
             </Route>
-            {countries.map((country) => {
+            {initialCountries.map((country) => {
               const { name } = country;
               const path = "/country/"+ name.replace(/\s+/g, '-').toLowerCase();
               return <Route path={path} key={country.alpha3Code}>
