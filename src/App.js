@@ -59,10 +59,9 @@ const App = () => {
             </Route>
             {countries.map((country) => {
               const { name } = country;
-              const path =
-                '/REST-Countries/' + name.replace(/\s+/g, '-').toLowerCase();
-              return <Route exact path={path} key={country.alpha3Code}>
-                <CountryPage country={country} countries={countries}></CountryPage>
+              const path = "/"+ name.replace(/\s+/g, '-').toLowerCase();
+              return <Route path={path} key={country.alpha3Code}>
+                <CountryPage country={country} countries={allCountries.current}></CountryPage>
               </Route>;
             })}
           </Switch>
