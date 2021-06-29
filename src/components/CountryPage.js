@@ -16,8 +16,6 @@ const CountryPage = ({ country, countries }) => {
     borders,
   } = country;
 
-  console.log(country)
-
   var currenciesName = currencies.map(function (item) {
     return item['name'];
   });
