@@ -31,8 +31,6 @@ const CountryPage = ({ country, countries }) => {
     if (borders.indexOf(element.alpha3Code) > -1) neighbours.push(element.name);
   });
 
-  console.log(neighbours);
-
   return (
     <div>
       <div className="laptop:ml-60  laptop:mr-64 mobile:ml-5 pt-12">
