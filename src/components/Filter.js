@@ -39,9 +39,9 @@ const Filter = ({ onFilter }) => {
                       onClick={() => onFilter('africa')}
                       className={classNames(
                         active
-                          ? 'bg-gray-background dark:bg-blue-background'
+                          ? 'cursor-pointer bg-gray-background dark:bg-blue-background'
                           : '',
-                        'block px-4 py-2 text-base dark:text-white'
+                        'cursor-pointer block px-4 py-2 text-base dark:text-white'
                       )}
                     >
                       Africa
@@ -54,9 +54,9 @@ const Filter = ({ onFilter }) => {
                       onClick={() => onFilter('americas')}
                       className={classNames(
                         active
-                          ? 'bg-gray-background  dark:bg-blue-background'
+                          ? 'cursor-pointer bg-gray-background  dark:bg-blue-background'
                           : '',
-                        'block px-4 py-2 text-base dark:text-white'
+                        'cursor-pointer block px-4 py-2 text-base dark:text-white'
                       )}
                     >
                       America
@@ -69,9 +69,9 @@ const Filter = ({ onFilter }) => {
                       onClick={() => onFilter('asia')}
                       className={classNames(
                         active
-                          ? 'bg-gray-background  dark:bg-blue-background'
+                          ? 'cursor-pointer bg-gray-background  dark:bg-blue-background'
                           : '',
-                        'block px-4 py-2 text-base dark:text-white'
+                        'cursor-pointer block px-4 py-2 text-base dark:text-white'
                       )}
                     >
                       Asia
@@ -84,9 +84,9 @@ const Filter = ({ onFilter }) => {
                       onClick={() => onFilter('europe')}
                       className={classNames(
                         active
-                          ? 'bg-gray-background  dark:bg-blue-background'
+                          ? 'cursor-pointer bg-gray-background  dark:bg-blue-background'
                           : '',
-                        'block px-4 py-2 text-base dark:text-white'
+                        'cursor-pointer block px-4 py-2 text-base dark:text-white'
                       )}
                     >
                       Europe
@@ -99,9 +99,9 @@ const Filter = ({ onFilter }) => {
                       onClick={() => onFilter('oceania')}
                       className={classNames(
                         active
-                          ? 'bg-gray-background  dark:bg-blue-background'
+                          ? 'cursor-pointer bg-gray-background  dark:bg-blue-background'
                           : '',
-                        'block px-4 py-2 text-base dark:text-white'
+                        'cursor-pointer block px-4 py-2 text-base dark:text-white'
                       )}
                     >
                       Oceania
