@@ -49,7 +49,7 @@ const App = () => {
         <div className="bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
           <Header />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/REST-Countries">
               <Home
                 handleSearch={handleSearch}
                 country={country}

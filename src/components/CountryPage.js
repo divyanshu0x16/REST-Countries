@@ -36,7 +36,7 @@ const CountryPage = ({ country, countries }) => {
   return (
     <div>
       <div className="laptop:ml-60  laptop:mr-64 mobile:ml-5 pt-12">
-        <Link to={'/'}>
+        <Link to={'/REST-Countries'}>
           <div className="cursor-pointer box-border shadow-lg w-36 h-10 rounded text-blue-text text-lg dark:text-white dark:bg-blue-elements transform half:hover:scale-105">
             <i className="fas fa-arrow-left pr-4 pl-8 pt-2.5"></i>
             <span className="mr-4">Back</span>
