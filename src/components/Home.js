@@ -16,7 +16,7 @@ const Home = ({ handleSearch, applyFilter, country, countries }) => {
         </div>
       </div>
       <div className="laptop:mx-48 laptop:my-12 mobile:mx-14 mobile:my-10">
-        <div className="grid laptop:grid-cols-4 mobile:grid-cols-1 half:grid-cols-2 place-items-center">
+        <div className="grid laptop:grid-cols-4 small-laptop:grid-cols-3 mobile:grid-cols-1 half:grid-cols-2 place-items-center">
           {countries.map((country) => {
             const { name, flag, population, region, capital } = country;
             const path = "/country/" + name.replace(/\s+/g, '-').toLowerCase();

@@ -35,14 +35,14 @@ const CountryPage = ({ country, countries }) => {
 
   return (
     <div>
-      <div className="laptop:ml-60  laptop:mr-64 mobile:ml-5 pt-12">
+      <div className="small-laptop:ml-60  small-laptop:mr-64 mobile:ml-5 pt-12">
         <Link to={'/'}>
           <div className="cursor-pointer box-border shadow-lg w-36 h-10 rounded text-blue-text text-lg dark:text-white dark:bg-blue-elements transform half:hover:scale-105">
             <i className="fas fa-arrow-left pr-4 pl-8 pt-2.5"></i>
             <span className="mr-4">Back</span>
           </div>
         </Link>
-        <div className="grid laptop:grid-cols-2 mobile:grid-cols-1 pt-16">
+        <div className="grid small-laptop:grid-cols-2 mobile:grid-cols-1 pt-16">
           <div className="">
             <img
               src={flag}
@@ -51,10 +51,10 @@ const CountryPage = ({ country, countries }) => {
             ></img>
           </div>
           <div className="text-blue-text dark:text-white">
-            <div className="text-3xl font-extrabold ml-1.5 laptop:pt-0 mobile:pt-10">
+            <div className="text-3xl font-extrabold ml-1.5 small-laptop:pt-0 mobile:pt-10">
               <p>{name}</p>
             </div>
-            <div className="grid laptop:grid-cols-2 mobile:grid-cols-1 pt-7">
+            <div className="grid small-laptop:grid-cols-2 mobile:grid-cols-1 pt-7">
               <div>
                 <p className="py-1 ml-1.5">
                   <span className="font-semibold">Native Name:</span>{' '}
