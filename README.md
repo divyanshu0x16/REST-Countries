@@ -13,6 +13,8 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 -  [Overview](#overview)
 
+-  [Screenshot](#screenshot)
+
 -  [The challenge](#the-challenge)
 
 -  [Links](#links)
@@ -27,15 +29,22 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ## Overview
 
+### Screenshot
+
+![dark mode home screeen](https://user-images.githubusercontent.com/62815174/123785300-ff7e8180-d8f5-11eb-8436-4cde947d23f0.png)
   
+![light mode home screeen](https://user-images.githubusercontent.com/62815174/123785324-086f5300-d8f6-11eb-8df2-d896e1391e15.png)
+
+![dark mode country](https://user-images.githubusercontent.com/62815174/123785353-11602480-d8f6-11eb-8b82-bfcf41bc3063.png)
+
+![light mode country](https://user-images.githubusercontent.com/62815174/123785337-0c02da00-d8f6-11eb-8b1f-bf18d68135b9.png)
+
 
 ### The challenge
 
   
-
 Users should be able to:
 
-  
 
 - See all countries from the API on the homepage
 
