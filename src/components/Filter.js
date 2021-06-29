@@ -6,7 +6,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-const Filter = ({onFilter}) => {
+const Filter = ({ onFilter }) => {
   return (
     <Menu as="div" className="relative inline-block">
       {({ open }) => (
@@ -36,10 +36,11 @@ const Filter = ({onFilter}) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/#"
                       onClick={() => onFilter('africa')}
                       className={classNames(
-                        active ? 'bg-gray-background dark:bg-blue-background' : '',
+                        active
+                          ? 'bg-gray-background dark:bg-blue-background'
+                          : '',
                         'block px-4 py-2 text-base dark:text-white'
                       )}
                     >
@@ -50,10 +51,11 @@ const Filter = ({onFilter}) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/#"
                       onClick={() => onFilter('americas')}
                       className={classNames(
-                        active ? 'bg-gray-background  dark:bg-blue-background' : '',
+                        active
+                          ? 'bg-gray-background  dark:bg-blue-background'
+                          : '',
                         'block px-4 py-2 text-base dark:text-white'
                       )}
                     >
@@ -64,10 +66,11 @@ const Filter = ({onFilter}) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/#"
                       onClick={() => onFilter('asia')}
                       className={classNames(
-                        active ? 'bg-gray-background  dark:bg-blue-background' : '',
+                        active
+                          ? 'bg-gray-background  dark:bg-blue-background'
+                          : '',
                         'block px-4 py-2 text-base dark:text-white'
                       )}
                     >
@@ -78,10 +81,11 @@ const Filter = ({onFilter}) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/#"
                       onClick={() => onFilter('europe')}
                       className={classNames(
-                        active ? 'bg-gray-background  dark:bg-blue-background' : '',
+                        active
+                          ? 'bg-gray-background  dark:bg-blue-background'
+                          : '',
                         'block px-4 py-2 text-base dark:text-white'
                       )}
                     >
@@ -92,10 +96,11 @@ const Filter = ({onFilter}) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/#"
                       onClick={() => onFilter('oceania')}
                       className={classNames(
-                        active ? 'bg-gray-background  dark:bg-blue-background' : '',
+                        active
+                          ? 'bg-gray-background  dark:bg-blue-background'
+                          : '',
                         'block px-4 py-2 text-base dark:text-white'
                       )}
                     >
