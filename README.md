@@ -99,7 +99,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Continued development
 
-Working on the responsiveness of the website and making those animations smoother. Work on the search functionality. 
+- Cleaning up filter code.
+
+- Working on the responsiveness of the website and animations smoother. 
+
+- Work on the search functionality and implement fuzzy search
 
 ### Useful resources
 
