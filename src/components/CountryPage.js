@@ -47,7 +47,7 @@ const CountryPage = ({ country, countries }) => {
             <img
               src={flag}
               alt={name}
-              className="object-fill w-4/6 h-full mobile:mx-auto half:mx-0"
+              className="object-fill w-4/6 h-full mobile:mx-auto laptop:mx-0"
             ></img>
           </div>
           <div className="text-blue-text dark:text-white">
@@ -89,7 +89,7 @@ const CountryPage = ({ country, countries }) => {
                 </p>
               </div>
             </div>
-            <div className="font-semibold pt-8 flex flex-row flex-wrap">
+            <div className="font-semibold py-8 flex flex-row flex-wrap">
               <div className="my-2 mr-1 ml-1.5">Border Countries: </div>
               {neighbours.map((country) => {
                 const path = "/country/" + country.replace(/\s+/g, '-').toLowerCase();
