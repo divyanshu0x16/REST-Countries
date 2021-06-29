@@ -92,7 +92,7 @@ const CountryPage = ({ country, countries }) => {
             <div className="font-semibold py-8 flex flex-row flex-wrap">
               <div className="my-2 mr-1 ml-1.5">Border Countries: </div>
               {neighbours.map((country) => {
-                const path = "/country/" + country.replace(/\s+/g, '-').toLowerCase();
+                const path = "/country/" + country.replace(/ *\([^)]*\) */g, "").replace(/\s+/g, '-').toLowerCase();
                 return (
                   <Link to={path} key={country.replace(/\s+/g, '-').toLowerCase()}>
                     <div className="cursor-pointer w-auto mx-1.5 my-1.5 px-2.5 py-0.5 dark:bg-blue-elements shadow-lg rounded font-light transform half:hover:scale-105">
