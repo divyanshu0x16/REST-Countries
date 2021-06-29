@@ -60,8 +60,6 @@ Users should be able to:
 
 ### Links
 
--  [Solution URL](https://github.com/divyanshu0x16/REST-Countries)
-
 - [Live Site URL](https://countries-api-divyanshu0x16.vercel.app)
 
 ### Built with
