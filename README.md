@@ -60,7 +60,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://countries-api-divyanshu0x16.vercel.app)
+- [Live Site URL](https://countries-api-plum-sigma.vercel.app/)
 
 ### Built with
 
