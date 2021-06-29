@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="shadow shadow-xl font-extrabold text-blue-text dark:text-white dark:bg-blue-elements">
       <div className="grid grid-cols-2 py-5">
-        <a href="/REST-Countries" className="text-3xl laptop:ml-60 laptop:text-3xl mobile:ml-5 mobile:text-xl">Where in the world?</a>
+        <a href="/" className="text-3xl laptop:ml-60 laptop:text-3xl mobile:ml-5 mobile:text-xl">Where in the world?</a>
         <div className="text-xl place-self-end flex flex-row laptop:mr-64 mobile:mr-5">
           {theme === 'dark' ? (
             <div onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>

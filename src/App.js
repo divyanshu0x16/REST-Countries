@@ -49,7 +49,7 @@ const App = () => {
         <div className="bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
           <Header />
           <Switch>
-            <Route exact path="/REST-Countries">
+            <Route exact path="/">
               <Home
                 handleSearch={handleSearch}
                 country={country}
@@ -59,7 +59,7 @@ const App = () => {
             </Route>
             {countries.map((country) => {
               const { name } = country;
-              const path = "/"+ name.replace(/\s+/g, '-').toLowerCase();
+              const path = "/country/"+ name.replace(/\s+/g, '-').toLowerCase();
               return <Route path={path} key={country.alpha3Code}>
                 <CountryPage country={country} countries={allCountries.current}></CountryPage>
               </Route>;
