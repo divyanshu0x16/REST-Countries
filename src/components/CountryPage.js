@@ -45,7 +45,7 @@ const CountryPage = ({ country, countries }) => {
             <img
               src={flag}
               alt={name}
-              className="object-fill w-4/6 h-full mobile:mx-auto laptop:mx-0"
+              className="object-fill w-4/6 h-auto mobile:mx-auto laptop:mx-0"
             ></img>
           </div>
           <div className="text-blue-text dark:text-white">
