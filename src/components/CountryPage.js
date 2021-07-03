@@ -35,7 +35,7 @@ const CountryPage = ({ country, countries }) => {
     <div>
       <div className="laptop:ml-60  laptop:mr-64 mobile:ml-5 pt-12">
         <Link to={'/'}>
-          <div className="cursor-pointer box-border shadow-lg w-36 h-10 rounded text-blue-text text-lg dark:text-white dark:bg-blue-elements transform half:hover:scale-105">
+          <div className="transition duration-200 ease-in-out cursor-pointer box-border shadow-lg w-36 h-10 rounded text-blue-text text-lg dark:text-white dark:bg-blue-elements transform half:hover:scale-105">
             <i className="fas fa-arrow-left pr-4 pl-8 pt-2.5"></i>
             <span className="mr-4">Back</span>
           </div>
@@ -93,7 +93,7 @@ const CountryPage = ({ country, countries }) => {
                 const path = "/country/" + country.replace(/[{()}]/g, '').replace(/\s+/g, '-').toLowerCase();
                 return (
                   <Link to={path} key={country.replace(/\s+/g, '-').toLowerCase()}>
-                    <div className="cursor-pointer w-auto mx-1.5 my-1.5 px-2.5 py-0.5 dark:bg-blue-elements shadow-lg rounded font-light transform half:hover:scale-105">
+                    <div className="transition duration-200 ease-in-out cursor-pointer w-auto mx-1.5 my-1.5 px-2.5 py-0.5 dark:bg-blue-elements shadow-lg rounded font-light transform half:hover:scale-105">
                       {country}
                     </div>
                   </Link>

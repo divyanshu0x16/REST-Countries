@@ -2,7 +2,7 @@ import React from 'react';
 
 const Country = ({ name, flag, population, region, capital }) => {
   return (
-    <div className="box-border rounded-lg h-96 w-72 shadow-lg laptop:mb-16 mobile:mb-12 transform half:hover:scale-105 dark:bg-blue-elements dark:text-white ">
+    <div className="transition duration-200 ease-in-out box-border rounded-lg h-96 w-72 shadow-lg laptop:mb-16 mobile:mb-12 transform half:hover:scale-105 dark:bg-blue-elements dark:text-white ">
       <div className="">
         <img
           src={flag}
