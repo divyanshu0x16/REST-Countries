@@ -48,7 +48,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <ThemeProvider>
-        <div className="transition-colors duration-300 bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
+        <div className="bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
           <Header />
           <Switch>
             <Route exact path="/">
