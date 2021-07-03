@@ -36,6 +36,7 @@ const Filter = ({ onFilter }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
+                      href="/#"
                       onClick={() => onFilter('africa')}
                       className={classNames(
                         active
@@ -51,6 +52,7 @@ const Filter = ({ onFilter }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
+                      href="/#"
                       onClick={() => onFilter('americas')}
                       className={classNames(
                         active
@@ -66,6 +68,7 @@ const Filter = ({ onFilter }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
+                      href="/#"
                       onClick={() => onFilter('asia')}
                       className={classNames(
                         active
@@ -81,6 +84,7 @@ const Filter = ({ onFilter }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
+                      href="/#"
                       onClick={() => onFilter('europe')}
                       className={classNames(
                         active
@@ -96,6 +100,7 @@ const Filter = ({ onFilter }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
+                      href="/#"
                       onClick={() => onFilter('oceania')}
                       className={classNames(
                         active
