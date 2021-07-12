@@ -81,7 +81,7 @@ Users are able to:
 
 -  [Tailwind Dropdown](https://tailwindui.com/components/application-ui/elements/dropdowns) - Directed implementation for dropdown menu, which can be easily modified.
 
--  [Tailwind Dark Mode](https://tailwindui.com/components/application-ui/elements/dropdowns) - Helped me implement dark mode functionality in React with Tailwind.
+-  [Tailwind Dark Mode](https://braydoncoyer.dev/blog/how-to-implement-dark-mode-with-tailwind-2/) - Helped me implement dark mode functionality in React with Tailwind.
 
 -  [Search Functionality](https://medium.com/analytics-vidhya/how-to-create-a-fuzzy-search-in-react-js-using-fuse-js-859f80345657) - Helped me implement search functionality. I have not implemented fuzzy search, but this article guides through that too. 
 
