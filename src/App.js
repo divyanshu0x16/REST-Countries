@@ -57,7 +57,7 @@ const App = () => {
               rel="noopener noreferrer"
               className="outline-none focus:outline-none"
             >
-              <div className="rounded-full shadow-lg dark:bg-blue-elements">
+              <div className="rounded-full shadow-lg bg-white dark:bg-blue-elements">
                 <i className="fab fa-github dark:text-white fa-3x mx-3 my-3"></i>
               </div>
             </a>
