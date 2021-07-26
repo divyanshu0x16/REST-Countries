@@ -17,7 +17,7 @@ const App = () => {
     countriesService.getAll().then((response) => {
       allCountries.current = response;
       setCountries(response);
-      setInitialCountries(response)
+      setInitialCountries(response);
     });
   }, []);
 
@@ -50,6 +50,18 @@ const App = () => {
       <ThemeProvider>
         <div className="bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
           <Header />
+          <div className="fixed bottom-4 right-3 transform duration-300 hover:scale-105">
+            <a
+              href="https://github.com/divyanshu0x16/REST-Countries"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="outline-none focus:outline-none"
+            >
+              <div className="rounded-full shadow-lg dark:bg-blue-elements">
+                <i className="fab fa-github dark:text-white fa-3x mx-3 my-3"></i>
+              </div>
+            </a>
+          </div>
           <Switch>
             <Route exact path="/">
               <Home
@@ -61,10 +73,20 @@ const App = () => {
             </Route>
             {initialCountries.map((country) => {
               const { name } = country;
-              const path = "/country/"+ name.replace(/[{()}]/g, '').replace(/\s+/g, '-').toLowerCase();
-              return <Route path={path} key={country.alpha3Code}>
-                <CountryPage country={country} countries={allCountries.current}></CountryPage>
-              </Route>;
+              const path =
+                '/country/' +
+                name
+                  .replace(/[{()}]/g, '')
+                  .replace(/\s+/g, '-')
+                  .toLowerCase();
+              return (
+                <Route path={path} key={country.alpha3Code}>
+                  <CountryPage
+                    country={country}
+                    countries={allCountries.current}
+                  ></CountryPage>
+                </Route>
+              );
             })}
           </Switch>
         </div>
