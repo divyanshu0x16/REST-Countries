@@ -50,7 +50,7 @@ const App = () => {
       <ThemeProvider>
         <div className="bg-gray-background dark:bg-blue-background pb-1 h-full min-h-screen">
           <Header />
-          <div className="fixed bottom-4 right-3 transform duration-300 hover:scale-105">
+          <div className="z-10 fixed bottom-4 right-3 transform duration-300 hover:scale-105">
             <a
               href="https://github.com/divyanshu0x16/REST-Countries"
               target="_blank"
